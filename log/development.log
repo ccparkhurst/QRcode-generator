@@ -1,0 +1,319 @@
+Started GET "/" for ::1 at 2017-01-22 13:07:27 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb (9.5ms)
+Completed 200 OK in 79ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-22 13:51:37 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 85ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-22 13:52:21 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-22 13:52:24 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-22 13:52:34 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-22 13:52:41 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-22 13:53:14 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-22 13:53:29 -0500
+Processing by ApplicationController#goodbye as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-23 20:50:04 -0500
+Processing by ApplicationController#goodbye as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 38ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-23 20:54:04 -0500
+  
+LoadError (cannot load such file -- rqrcode):
+  
+app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (15.5ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (163.7ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (170.9ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (253.4ms)
+Started GET "/" for ::1 at 2017-01-23 20:54:43 -0500
+  
+LoadError (cannot load such file -- rqrcode):
+  
+app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.6ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (110.2ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (77.9ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (149.4ms)
+Started GET "/" for ::1 at 2017-01-23 21:08:22 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (99.7ms)
+Completed 200 OK in 2050ms (Views: 2025.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/qr_codes" for ::1 at 2017-01-23 21:08:30 -0500
+Processing by QrCodesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XBSE3iHJ22IFxjPVZ3j9CGih3tGQg04AbJOVzEJpF7S7eGWlzSM7oJwJj5433Y0fhDc02ZqMdHlzvrz/GQG9HQ==", "qr_code"=>{"text"=>"heya"}, "commit"=>"Save Qr code"}
+  Rendering qr_codes/create.html.erb within layouts/application
+  Rendered qr_codes/create.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 192ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/qr_codes/new" for ::1 at 2017-01-23 21:08:33 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 47ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/qr_codes" for ::1 at 2017-01-23 21:08:49 -0500
+Processing by QrCodesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i2RWoNrZdJyMJ5oKp2aomfEu2/t54SPP27ExH2f+ho6Mnjmzyo3miX7cZimeBktBNv+vC3MrkJIuA9wUMSZfCA==", "qr_code"=>{"text"=>"brittany"}, "commit"=>"Save Qr code"}
+  Rendering qr_codes/create.html.erb within layouts/application
+  Rendered qr_codes/create.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 136ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/qr_codes/new" for ::1 at 2017-01-23 21:08:58 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 48ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/qr_codes" for ::1 at 2017-01-23 21:17:46 -0500
+Processing by QrCodesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MqpWi7E9rr8xT3yfXNYHVTD96hiHZ3unGChYR1Gt0BU1UDmYoWk8qsO0gLxltuSN9yye6I2tyPrtmrVMB3UJkw==", "qr_code"=>{"text"=>"christina"}, "commit"=>"Save Qr code"}
+  Rendering qr_codes/create.html.erb within layouts/application
+  Rendered qr_codes/create.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 356ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-31 08:28:58 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (131.2ms)
+Completed 200 OK in 701ms (Views: 639.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/qr_codes" for ::1 at 2017-01-31 08:29:04 -0500
+Processing by QrCodesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B0dJir2GUrngGhPPU/1RYbqXs4hkQno23Gyes0vh87HgK6jxUWyye3nVr4QDWCF2VgFZgG5NQE/DQbeAEIlZGA==", "qr_code"=>{"text"=>"Test"}, "commit"=>"Save Qr code"}
+  Rendering qr_codes/create.html.erb within layouts/application
+  Rendered qr_codes/create.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 178ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/qr_codes/new" for ::1 at 2017-01-31 08:29:07 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 56ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/qr_codes" for ::1 at 2017-01-31 08:33:44 -0500
+Processing by QrCodesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pvcH94liUdE74qaq5SRmZF1HWPII7miHad1dLd9IlxWhDWjkmTbDxMkZWoncRIW8mpYsAgIk29qcb7AmiZBOkw==", "qr_code"=>{"text"=>"Test"}, "commit"=>"Save Qr code"}
+  Rendering qr_codes/create.html.erb within layouts/application
+  Rendered qr_codes/create.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 174ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/qr_codes" for ::1 at 2017-01-31 08:33:51 -0500
+Processing by QrCodesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vL60PFtL2e93SxvuV+u4IqQdqVv+vMiolzJV+uUxekRb0lVHt6E5Le6Ep6UHTsg1SItDU/Sz8tGIH3zJvlnQ7Q==", "qr_code"=>{"text"=>"christina"}, "commit"=>"Save Qr code"}
+  Rendering qr_codes/create.html.erb within layouts/application
+  Rendered qr_codes/create.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 133ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/qr_codes" for ::1 at 2017-01-31 08:33:58 -0500
+Processing by QrCodesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vL60PFtL2e93SxvuV+u4IqQdqVv+vMiolzJV+uUxekRb0lVHt6E5Le6Ep6UHTsg1SItDU/Sz8tGIH3zJvlnQ7Q==", "qr_code"=>{"text"=>"test"}, "commit"=>"Save Qr code"}
+  Rendering qr_codes/create.html.erb within layouts/application
+  Rendered qr_codes/create.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 147ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-31 08:37:10 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-31 08:37:14 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-31 08:37:40 -0500
+Processing by QrCodesController#index as HTML
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_img' for #<RQRCode::QRCode:0x007fba34588540>):
+  
+app/controllers/qr_codes_controller.rb:4:in `index'
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3@global/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (116.0ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (78.9ms)
+  Rendering /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/christinaparkhurst/.rvm/gems/ruby-2.3.3/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (155.0ms)
+Started GET "/" for ::1 at 2017-01-31 08:38:13 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 30ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-31 08:44:55 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (434.6ms)
+Completed 200 OK in 976ms (Views: 887.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-31 09:54:06 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 104ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/qr_codes" for ::1 at 2017-01-31 09:54:11 -0500
+Processing by QrCodesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gNYzz1JfXL6KZyCGYkoXGvWLMgOF90foOVixLV57a7ZnutK0vrW8fBOonM0y72cNGR3YC4/4fZEmdZgeBRPBHw==", "qr_code"=>{"text"=>"test"}, "commit"=>"Save Qr code"}
+  Rendering qr_codes/create.html.erb within layouts/application
+  Rendered qr_codes/create.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 188ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/qr_codes" for ::1 at 2017-01-31 09:54:58 -0500
+Processing by QrCodesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gNYzz1JfXL6KZyCGYkoXGvWLMgOF90foOVixLV57a7ZnutK0vrW8fBOonM0y72cNGR3YC4/4fZEmdZgeBRPBHw==", "qr_code"=>{"text"=>"test"}, "commit"=>"Save Qr code"}
+  Rendering qr_codes/create.html.erb within layouts/application
+  Rendered qr_codes/create.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 174ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/qr_codes" for ::1 at 2017-01-31 10:47:53 -0500
+Processing by QrCodesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gNYzz1JfXL6KZyCGYkoXGvWLMgOF90foOVixLV57a7ZnutK0vrW8fBOonM0y72cNGR3YC4/4fZEmdZgeBRPBHw==", "qr_code"=>{"text"=>"Waller loves QR Codes"}, "commit"=>"Save Qr code"}
+  Rendering qr_codes/create.html.erb within layouts/application
+  Rendered qr_codes/create.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 205ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-31 17:19:36 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (558.2ms)
+Completed 200 OK in 1909ms (Views: 1849.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-31 17:20:12 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 88ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-31 17:28:10 -0500
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (342.6ms)
+Completed 200 OK in 1230ms (Views: 1178.7ms | ActiveRecord: 0.0ms)
+
+
