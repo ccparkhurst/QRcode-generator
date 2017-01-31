@@ -3,18 +3,6 @@ This is a quick and dirty QR code generator using the rqr Ruby gem.
 
 ### Installation
 Fork or clone this repo, run a bundle install, and fire up your Rails server
-To generate the QR Codes you will use the rqrcode gem
-```
-gem install rqrcode
-```
-
-Or 
-
-```
-gem 'rqrcode', '~> 0.10.1'
-bundle install
-```
-
 
 ### Or build it yourself following the below steps.
 
